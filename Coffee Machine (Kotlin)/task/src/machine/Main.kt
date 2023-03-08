@@ -18,9 +18,8 @@ class CoffeeMachine() {
     }
 
     private fun displayData() {
-//        println()
         println(
-            "The coffee machine has:\n" + "$waterAmount ml of water\n" + "$milkAmount ml of milk\n" + "$beansAmount g of coffee beans\n" + "$disposableCups disposable cups\n" + "\$$money of money"
+            "The coffee machine has:\n$waterAmount ml of water\n$milkAmount ml of milk\n$beansAmount g of coffee beans\n$disposableCups disposable cups\n\$$money of money"
         )
         start()
     }
